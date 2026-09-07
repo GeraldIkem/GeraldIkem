@@ -45,7 +45,7 @@ Bring in documents, webpages, or recordings. Explore summaries at different dept
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://threadfern.dev/demo"><img src="assets/threadfern.jpg" width="100%" alt="Threadfern's public demo displaying a real saved crawl of example.com" /></a>
+<a href="https://threadfern.dev/demo"><img src="assets/threadfern-preview.jpg" width="100%" alt="Threadfern's public demo displaying a real saved crawl of example.com" /></a>
 
 ### 03 / Threadfern
 **Follow the links. Keep the discoveries.**
@@ -73,7 +73,7 @@ Explore Premier League, La Liga, and NBA match predictions. Follow teams, check 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://skyloom.app/"><img src="assets/skyloom.jpg" width="100%" alt="Skyloom's animated sky and interactive hourly weather timeline" /></a>
+<a href="https://skyloom.app/"><img src="assets/skyloom-preview.jpg" width="100%" alt="Skyloom's animated sky and interactive hourly weather timeline" /></a>
 
 ### 05 / Skyloom
 **Step into the forecast.**
