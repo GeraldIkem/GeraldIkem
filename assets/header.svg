@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">Gerald Ikem</title>
+  <desc id="desc">Web apps, data tools, and ideas made real.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#263531" stroke-width="1"/>
+    </pattern>
+    <clipPath id="canvas"><rect width="1280" height="340" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#canvas)">
+    <rect width="1280" height="340" fill="#111d1a"/>
+    <rect x="914" width="366" height="340" fill="url(#grid)"/>
+    <path d="M914 0V340" stroke="#33463b"/>
+    <rect x="48" y="42" width="8" height="8" fill="#d7ee99"/>
+    <text x="68" y="52" fill="#d7ee99" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">GERALD IKEM / SELECTED PROJECTS</text>
+    <text x="43" y="172" fill="#f4f3e9" font-family="Georgia,Times New Roman,serif" font-size="98" letter-spacing="-4">Gerald Ikem<tspan fill="#d7ee99">.</tspan></text>
+    <text x="49" y="228" fill="#e4e9dc" font-family="Arial,Helvetica,sans-serif" font-size="26">Web apps, data tools, and ideas made real.</text>
+    <path d="M49 266H860" stroke="#33463b"/>
+    <text x="49" y="301" fill="#adc3b2" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2">SHARE. LEARN. DISCOVER. EXPLORE.</text>
+    <g fill="none" stroke="#d7ee99" stroke-width="14">
+      <path d="M1149 82H1020V229H1093V173H1061"/>
+      <path d="M1124 143V229H1177V143"/>
+    </g>
+    <rect x="1117" y="113" width="14" height="14" fill="#d7ee99"/>
+    <text x="1096" y="301" text-anchor="middle" fill="#adc3b2" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">JAVA / PYTHON / SQL</text>
+  </g>
+</svg>

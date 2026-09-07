@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1363" height="936" viewBox="0 0 1363 936" role="img" aria-labelledby="title desc">
+<title id="title">Matchday ML project cover</title>
+<desc id="desc">Sports predictions for the Premier League, La Liga and NBA.</desc>
+<rect width="1363" height="936" fill="#101a31"/>
+<path d="M0 76H1363M0 860H1363M70 0V936M1293 0V936" stroke="#2a3851" stroke-width="2"/>
+<text x="102" y="152" font-family="Arial,Helvetica,sans-serif" font-size="21" letter-spacing="7" fill="#e8cc5a">SPORTS / DATA / DISCOVERY</text>
+<text x="91" y="353" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="150" letter-spacing="-8" fill="#f8f7ef">MATCHDAY<tspan fill="#e8cc5a">.</tspan></text>
+<text x="102" y="436" font-family="Arial,Helvetica,sans-serif" font-size="37" fill="#b9c7d9">Every match has a story. Explore the probabilities.</text>
+<g fill="#16243c" stroke="#41506a" stroke-width="2"><rect x="102" y="541" width="360" height="183" rx="14"/><rect x="502" y="541" width="360" height="183" rx="14"/><rect x="902" y="541" width="360" height="183" rx="14"/></g>
+<g font-family="Arial,Helvetica,sans-serif"><g font-size="19" letter-spacing="4" fill="#e8cc5a"><text x="130" y="590">FOOTBALL</text><text x="530" y="590">FOOTBALL</text><text x="930" y="590">BASKETBALL</text></g><g font-size="36" font-weight="700" fill="#f8f7ef"><text x="130" y="673">Premier League</text><text x="530" y="673">La Liga</text><text x="930" y="673">NBA</text></g></g>
+<text x="102" y="812" font-family="Arial,Helvetica,sans-serif" font-size="24" letter-spacing="3" fill="#b9c7d9">FIXTURES  /  FORECASTS  /  RESULTS</text>
+</svg>
