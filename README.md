@@ -8,7 +8,7 @@
   <a href="#explore-the-projects"><strong>Explore the projects</strong></a>
 </p>
 
-**Hi, I'm Gerald Ikem a backend engineer based in Toronto.** At **Payaza**, I build Java APIs for payments, onboarding, and rate management. I also develop and maintain websites for **Believer's LoveWorld**.
+**Hi, I'm Gerald Ikem; a backend engineer based in Toronto.** At **Payaza**, I build Java APIs for payments, onboarding, and rate management. I also develop and maintain websites for **Believer's LoveWorld**.
 
 I'm pursuing a **Master of Computer Science at the University of Illinois Urbana-Champaign**, following a Computer Science degree from **York University**. My interests span **backend engineering, data science, and applied machine learning**. These projects bring those interests into apps people can explore and use.
 
