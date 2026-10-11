@@ -105,6 +105,6 @@ Discover films shaped by what you like. Compare recommendation approaches, explo
 
 <p align="center">
   <strong>Found something interesting? I'd love to hear what you think.</strong><br />
-  <a href="mailto:geraldikem15@gmail.com">geraldikem18@gmail.com</a> &nbsp; · &nbsp;
+  <a href="mailto:geraldikem15@gmail.com">geraldikem15@gmail.com</a> &nbsp; · &nbsp;
   <a href="https://www.linkedin.com/in/gerald-ikem-158926233/">Connect on LinkedIn</a>
 </p>
