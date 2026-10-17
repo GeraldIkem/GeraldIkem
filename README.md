@@ -3,14 +3,38 @@
 </p>
 
 <p align="center">
+  <a href="https://geraldikem.com/"><strong>Website</strong></a> &nbsp; · &nbsp;
+  <a href="https://geraldikem.com/resume/Gerald_Ikem_Resume.pdf"><strong>Résumé</strong></a> &nbsp; · &nbsp;
   <a href="https://www.linkedin.com/in/gerald-ikem-158926233/"><strong>LinkedIn</strong></a> &nbsp; · &nbsp;
-  <a href="mailto:geraldikem18@gmail.com"><strong>Email me</strong></a> &nbsp; · &nbsp;
+  <a href="mailto:geraldikem15@gmail.com"><strong>Email me</strong></a> &nbsp; · &nbsp;
   <a href="#explore-the-projects"><strong>Explore the projects</strong></a>
 </p>
 
-**Hi, I'm Gerald Ikem; a backend engineer based in Toronto.** At **Payaza**, I build Java APIs for payments, onboarding, and rate management. I also develop and maintain websites for **Believer's LoveWorld**.
+**Hi, I'm Gerald Ikem; a backend engineer based in Toronto.** At **Payaza**, I build Java and Spring Boot services for payments, merchant onboarding, foreign-exchange rates, and back-office security. I also develop and maintain campaign websites for **Believer's LoveWorld**.
 
-I'm pursuing a **Master of Computer Science at the University of Illinois Urbana-Champaign**, following a Computer Science degree from **York University**. My interests span **backend engineering, data science, and applied machine learning**. These projects bring those interests into apps people can explore and use.
+I'm studying part-time for a **Master of Computer Science at the University of Illinois Urbana-Champaign**, starting with Applied Machine Learning, after a Computer Science degree from **York University**. My interests span **backend engineering, data science, and applied machine learning**. These projects bring those interests into apps people can explore and use. The full write-ups, with what was hard and how I fixed it, are on **[geraldikem.com](https://geraldikem.com/)**.
+
+## Now building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://hummle.app/"><img src="assets/hummle.png" width="100%" alt="Hummle's homepage: Give every line a voice, beside a page of text with one word highlighted" /></a>
+</td>
+<td width="50%" valign="top">
+
+### Hummle &nbsp; `in progress`
+**Give every line a voice.**
+
+A private read-aloud app for your own PC. Hummle will read your drafts, web pages, and long web novels aloud in expressive, consistent voices, with nothing sent to the cloud. Right now I'm proving the voice engine: every model runs faster than real time on one GPU, and each take is checked by code for word accuracy, voice identity, and accent.
+
+**Stack:** `Python` `whisper.cpp` `GGUF on Vulkan` `PyTorch on ROCm` `librosa`
+
+**[Follow Hummle](https://hummle.app/)**
+
+</td>
+</tr>
+</table>
 
 ## Explore the projects
 
@@ -22,9 +46,9 @@ I'm pursuing a **Master of Computer Science at the University of Illinois Urbana
 ### 01 / Linkify
 **One place for everything you share.**
 
-Create memorable short links, share large files, and bring your links together on a personal page. Add custom QR codes, set expiry dates or passcodes, and see how people discover what you've shared.
+Create memorable short links, share files up to 1 GB, and bring your links together on a personal page. Add custom QR codes, set expiry dates or passcodes, and see how people discover what you've shared. The core is being rewritten in Java 21 and Spring Boot 4, with 244 tests run against real Postgres and Redis.
 
-**Stack:** `Java` `Spring Boot` `PostgreSQL` `Next.js` `TypeScript` `Amazon S3`
+**Stack:** `Java` `Spring Boot` `PostgreSQL` `Redis` `Next.js` `TypeScript` `Amazon S3`
 
 **[Visit Linkify](https://uselinkify.com/)**
 
@@ -37,7 +61,7 @@ Create memorable short links, share large files, and bring your links together o
 
 Bring in documents, webpages, or recordings. Explore summaries at different depths, ask questions with references to the original text, and turn useful ideas into editable study cards and notes.
 
-**Stack:** `Python` `Pyodide` `React` `TypeScript` `Cloudflare Workers`
+**Stack:** `Python` `Pyodide` `React` `Next.js` `TypeScript` `Cloudflare Workers`
 
 **[Open QuickRead](https://usequickread.com/)**
 
@@ -58,14 +82,14 @@ Crawl a website and collect its page titles, URLs, status codes, and discovered 
 
 </td>
 <td width="50%" valign="top">
-<a href="https://matchdayml.com/"><img src="assets/matchday.svg" width="100%" alt="Matchday ML project cover: Premier League, La Liga, and NBA" /></a>
+<a href="https://matchdayml.com/"><img src="assets/matchday.png" width="100%" alt="Matchday ML's match predictions page" /></a>
 
 ### 04 / Matchday ML
 **See the game through the numbers.**
 
-Explore Premier League, La Liga, and NBA match predictions. Follow teams, check upcoming fixtures and live results, and compare the probabilities recorded before a game with what actually happened.
+Explore Premier League, La Liga, NBA, and WNBA predictions. Every forecast is frozen at kickoff, so you can compare what the model said before a game with what actually happened. On 1,140 held-out Premier League games it picks 53.4% correctly, against 43.2% for a baseline.
 
-**Stack:** `Python` `scikit-learn` `Next.js` `TypeScript` `SQLite`
+**Stack:** `Python` `scikit-learn` `CatBoost` `Next.js` `TypeScript` `SQLite`
 
 **[Matchday ML website](https://matchdayml.com/)**
 
@@ -106,5 +130,6 @@ Discover films shaped by what you like. Compare recommendation approaches, explo
 <p align="center">
   <strong>Found something interesting? I'd love to hear what you think.</strong><br />
   <a href="mailto:geraldikem15@gmail.com">geraldikem15@gmail.com</a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/gerald-ikem-158926233/">Connect on LinkedIn</a>
+  <a href="https://www.linkedin.com/in/gerald-ikem-158926233/">Connect on LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://geraldikem.com/">geraldikem.com</a>
 </p>
