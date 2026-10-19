@@ -1,0 +1,59 @@
+name: Sync project images
+
+# The project screenshots come from my site, which is the source of truth:
+# GeraldIkem/gerald-ikem-site, src/assets/projects/. Once a week (or on demand)
+# this copies them into assets/ and opens a pull request if any changed, or
+# updates the one already open.
+
+on:
+  schedule:
+    - cron: '17 9 * * 1' # Mondays, 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-project-images
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the site's project images
+        uses: actions/checkout@v4
+        with:
+          repository: GeraldIkem/gerald-ikem-site
+          path: site
+          sparse-checkout: src/assets/projects
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Copy them into assets/
+        run: |
+          shopt -s nullglob nocaseglob
+          images=(site/src/assets/projects/*.{png,jpg,jpeg,webp,gif})
+          if [ ${#images[@]} -eq 0 ]; then
+            echo "No images found in the site's src/assets/projects/" >&2
+            exit 1
+          fi
+          cp "${images[@]}" assets/
+          rm -rf site
+          git status --short assets/
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/project-images
+          delete-branch: true
+          add-paths: assets/*
+          commit-message: Sync project images from gerald-ikem-site
+          title: Sync project images from gerald-ikem-site
+          body: |
+            The project screenshots in `assets/` changed on my site (`src/assets/projects/` in
+            [gerald-ikem-site](https://github.com/GeraldIkem/gerald-ikem-site)), which is where they're kept.
+            This copies them over. A new image only appears in the README once a card links to it.
